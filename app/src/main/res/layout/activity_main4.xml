@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity4">
+
+        <ImageView
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="474dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginBottom="500dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="Grčka Mitologija"
+            android:focusable="true"
+            android:src="@drawable/mainrect"
+            android:translationY="-300px" />
+
+        <ImageView
+            android:id="@+id/imageButton2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="240dp"
+            android:clickable="true"
+            android:contentDescription="Zeus"
+            android:src="@drawable/zeuscircle" />
+
+        <ImageView
+            android:id="@+id/imageButton3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="240dp"
+            android:clickable="true"
+            android:contentDescription="Hera"
+            android:src="@drawable/heracircle" />
+
+        <ImageView
+            android:id="@+id/imageButton4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:contentDescription="Athena"
+            android:src="@drawable/athenacricle" />
+
+        <ImageView
+            android:id="@+id/imageButton5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:contentDescription="Apolo"
+            android:src="@drawable/apollocircle" />
+
+        <ImageView
+            android:id="@+id/imageButton6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="575dp"
+            android:clickable="true"
+            android:contentDescription="Posejdon"
+            android:src="@drawable/poseidoncircle" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Grčka Mitologija"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationY="-1390px" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Zeus"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationX="-240px"
+            android:translationY="-500px" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Atena"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationX="-240px"
+            android:translationY="-30px" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Hera"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationX="235px"
+            android:translationY="-500px" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Apolo"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationX="235px"
+            android:translationY="-30px" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:fontFamily="sans-serif"
+            android:text="Posejdon"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:translationY="380px" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="160dp"
+            android:translationY="1500px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/paragraph"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </ScrollView>
+    </RelativeLayout>
+</ScrollView>
