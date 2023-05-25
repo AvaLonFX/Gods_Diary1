@@ -30,35 +30,29 @@ public class MainActivity4 extends AppCompatActivity {
             }
         });
 
-        if (imageButton1.isClickable()) {
-            // Button is clickable
-            // Perform your desired actions here
-            Toast.makeText(getApplicationContext(), "Button is clickable", Toast.LENGTH_SHORT).show();
-        } else {
-            // Button is not clickable
-            // Perform alternative actions if needed
-            Toast.makeText(getApplicationContext(), "Button is not clickable", Toast.LENGTH_SHORT).show();
-        }
 
 
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Image button 2 clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity4.this, MainActivityZeus.class);
+                startActivity(intent);
             }
         });
 
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity4.this, MainActivityHera.class);
+                startActivity(intent);
             }
         });
 
         imageButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity4.this, MainActivityAthena.class);
+                startActivity(intent);
             }
         });
 
@@ -66,14 +60,16 @@ public class MainActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity4.this, MainActivityApolo.class);
+                startActivity(intent);
             }
         });
 
         imageButton6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity4.this, MainActivityPosejdon.class);
+                startActivity(intent);
             }
         });
 
