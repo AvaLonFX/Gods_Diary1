@@ -10,28 +10,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
         tools:context=".MainActivity4">
 
         <ImageView
             android:id="@+id/imageButton1"
             android:layout_width="wrap_content"
             android:layout_height="474dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginBottom="500dp"
-            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
             android:clickable="true"
             android:contentDescription="Grčka Mitologija"
             android:focusable="true"
-            android:src="@drawable/mainrect"
-            android:translationY="-300px" />
+            android:src="@drawable/mainrect" />
 
         <ImageView
             android:id="@+id/imageButton2"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_below="@id/imageButton1"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="40dp"
             android:clickable="true"
             android:contentDescription="Zeus"
             android:src="@drawable/zeuscircle2x" />
@@ -40,8 +38,9 @@
             android:id="@+id/imageButton3"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_below="@id/imageButton1"
             android:layout_marginLeft="220dp"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="40dp"
             android:clickable="true"
             android:contentDescription="Hera"
             android:src="@drawable/heracircle2x" />
@@ -50,8 +49,9 @@
             android:id="@+id/imageButton4"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_below="@id/imageButton2"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="420dp"
+            android:layout_marginTop="40dp"
             android:clickable="true"
             android:contentDescription="Athena"
             android:src="@drawable/athenacircle2x" />
@@ -60,8 +60,9 @@
             android:id="@+id/imageButton5"
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_below="@id/imageButton3"
             android:layout_marginLeft="220dp"
-            android:layout_marginTop="420dp"
+            android:layout_marginTop="40dp"
             android:clickable="true"
             android:contentDescription="Apolo"
             android:src="@drawable/apollocircle2x" />
@@ -70,8 +71,9 @@
             android:id="@+id/imageButton6"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="575dp"
+            android:layout_below="@id/imageButton4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
             android:clickable="true"
             android:contentDescription="Posejdon"
             android:src="@drawable/poseidoncircle2x" />
@@ -79,8 +81,8 @@
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160dp"
-            android:translationY="1500px">
+            android:layout_below="@+id/imageButton6"
+            android:layout_marginTop="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
