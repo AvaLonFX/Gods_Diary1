@@ -1,5 +1,7 @@
 package com.example.gods_diary1;
 
+import static android.widget.Toast.LENGTH_SHORT;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         usernameEditText = findViewById(R.id.usernameEditText);
         passwordEditText = findViewById(R.id.passwordEditText);
@@ -40,18 +44,18 @@ public class MainActivity extends AppCompatActivity {
                 String username = usernameEditText.getText().toString().trim();
                 String password = passwordEditText.getText().toString().trim();
 
-                // Perform login validation
                 if (username.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Please enter username and password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter username and password", LENGTH_SHORT).show();
                 } else if (username.equals("admin") && password.equals("password")) {
-                    Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login successful", LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                     startActivity(intent);
-                    // Perform any additional actions upon successful login
                 } else {
-                    Toast.makeText(MainActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Invalid username or password", LENGTH_SHORT).show();
                 }
-            }
+        }
+
+
         });
     }
 }

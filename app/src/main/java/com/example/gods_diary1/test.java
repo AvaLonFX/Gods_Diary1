@@ -8,10 +8,15 @@ public class test {
     public int id;
     @ColumnInfo(name = "Username")
     public String username;
-    @ColumnInfo(name = "Password")
-    public String password;
     @ColumnInfo(name = "E-mail")
     public String email;
+    @ColumnInfo(name = "Password")
+    public String pass;
+
+
+
+
 }
+
 
 

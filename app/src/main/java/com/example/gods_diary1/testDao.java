@@ -6,7 +6,7 @@ import java.util.List;
 @Dao
 public interface testDao {
     @Insert
-    void insert(test note);
+    void insert(test test);
     @Query("SELECT * FROM test")
     List<test> getAll();
 }
