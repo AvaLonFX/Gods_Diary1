@@ -16,7 +16,7 @@
         android:layout_height="474dp"
         android:layout_marginLeft="55dp"
         android:layout_weight="1"
-        android:src="@drawable/mainrect" />
+        android:src="@drawable/mainrect"/>
 
     <TextView
         android:id="@+id/textView"

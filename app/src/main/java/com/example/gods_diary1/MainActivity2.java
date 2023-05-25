@@ -1,4 +1,5 @@
 package com.example.gods_diary1;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -19,9 +20,10 @@ public class MainActivity2 extends AppCompatActivity {
         ImageView imageButton = findViewById(R.id.imageButton);
         imageButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform actions when the image button is clicked
                 // For example, you can launch another activity or show a toast message
                 Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
+                startActivity(intent);
             }
         });
     }
