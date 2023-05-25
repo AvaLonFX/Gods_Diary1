@@ -90,7 +90,7 @@
                 android:fontFamily="sans-serif"
                 android:text="@string/paragraph"
                 android:textColor="@color/white"
-                android:textSize="14sp" />
+                android:textSize="18sp" />
         </ScrollView>
     </RelativeLayout>
 </ScrollView>
