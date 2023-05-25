@@ -90,11 +90,7 @@ public class MainActivity3 extends AppCompatActivity {
         @Override
         protected Boolean doInBackground(String... params) {
             String username = params[0];
-
-            // Perform the check in the background
             List<test> userList = appDatabase.testDao().getUserByUsername(username);
-
-            // If the userList is not empty, it means the username already exists
             return !userList.isEmpty();
         }
 

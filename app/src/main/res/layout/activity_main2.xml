@@ -13,9 +13,11 @@
     <ImageView
         android:id="@+id/imageButton"
         android:layout_width="300dp"
-        android:layout_height="474dp"
+        android:layout_height="250dp"
         android:layout_marginLeft="55dp"
         android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:src="@drawable/mainrect"/>
 
     <TextView
@@ -24,10 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_weight="0"
-        android:text="Grčka Mitologija"
-        android:textSize="24sp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/white" />
+        android:text="Grčka Mitologija"
+        android:textColor="@color/white"
+        android:layout_below="@+id/imageButton"
+        android:textSize="24sp" />
 
 
 </RelativeLayout>

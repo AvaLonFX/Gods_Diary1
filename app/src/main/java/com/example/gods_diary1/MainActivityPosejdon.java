@@ -18,7 +18,6 @@ public class MainActivityPosejdon extends AppCompatActivity {
         ImageView imageButton = findViewById(R.id.imageButton);
         imageButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // For example, you can launch another activity or show a toast message
                 Toast.makeText(getApplicationContext(), "Image button clicked", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivityPosejdon.this, MainActivity4.class);
                 startActivity(intent);

@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
     private void handleLoginResult(test user) {
         if (user != null) {
             Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-            // Proceed with your desired logic after successful login, such as starting a new activity
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
         } else {
