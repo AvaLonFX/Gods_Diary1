@@ -9,4 +9,10 @@ public interface testDao {
     void insert(test test);
     @Query("SELECT * FROM test")
     List<test> getAll();
+
+    @Query("SELECT * FROM test WHERE username = :username AND password = :password LIMIT 1")
+    test getUserByUsernameAndPassword(String username, String password);
+
+
+
 }
