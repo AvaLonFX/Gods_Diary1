@@ -23,6 +23,7 @@ public class MainActivity3 extends AppCompatActivity {
     private TextView TextView;
     private AppDatabase appDatabase;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,9 +43,8 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 registerUser();
-                savetest();
-                Intent intent = new Intent(MainActivity3.this, MainActivity.class);
-                startActivity(intent);
+
+
 
             }
         });
@@ -65,7 +65,6 @@ public class MainActivity3 extends AppCompatActivity {
             editTextEmail.setText("");
             editTextPassword.setText("");
 
-            loadtest();
 
         }
 
@@ -82,7 +81,35 @@ public class MainActivity3 extends AppCompatActivity {
         if (username.isEmpty() || email.isEmpty() || password.isEmpty()) {
             Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Registration successful", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(this, "Registration successful", Toast.LENGTH_SHORT).show();
+            new CheckUsernameTask().execute(username, email, password);
+
+        }
+    }
+    private class CheckUsernameTask extends AsyncTask<String, Void, Boolean> {
+        @Override
+        protected Boolean doInBackground(String... params) {
+            String username = params[0];
+
+            // Perform the check in the background
+            List<test> userList = appDatabase.testDao().getUserByUsername(username);
+
+            // If the userList is not empty, it means the username already exists
+            return !userList.isEmpty();
+        }
+
+
+        @Override
+        protected void onPostExecute(Boolean usernameExists) {
+            if (usernameExists) {
+                Toast.makeText(MainActivity3.this, "Username already exists", Toast.LENGTH_SHORT).show();
+            } else {
+                savetest();
+                loadtest();
+                Toast.makeText(MainActivity3.this, "Registration successful", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity3.this, MainActivity.class);
+                startActivity(intent);
+            }
         }
     }
 
