@@ -9,4 +9,95 @@ Mitovi su bili važni za grčko društvo, umjetnost i književnost, a i danas ih
     <string name="hera">Hera je bila kraljica bogova, supruga Zeusa i boginja braka. Predstavljena je kao lijepa i moćna žena. Hera je bila zaštitnica žena i majka bogova. Međutim, Hera je često bila ljubomorna na Zeusa zbog njegovih ljubavnica i kažnjavala ih je. Ipak, Hera je bila važna boginja i često je zastupala brak i obiteljske vrijednosti.</string>
     <string name="zeus">Zeus je bio kralj bogova i bog munja. Bio je vrhovni vladar Olimpa i bog neba. Predstavljen je kao moćan muškarac sa munjom u ruci. Zeus je bio poznat po svojoj snazi i avanturama s ljubavnicama. Bio je otac mnogih bogova i heroja. Zeus je bio vladar sveta i donosio je pravdu.</string>
     <string name="posejdon">Posejdon je bio bog mora, potresa zemlje i konja. Bio je brat Zeusa i Hadesa. Predstavljen je kao moćan muškarac sa tridentom. Posejdon je bio moćan vladar mora i uzburkanog vremena. On je stvarao oluje i potrese kad bi bio ljut. Također je bio zaštitnik mornara i često se pojavljivao sa svojim konjima.</string>
+    <string name ="Thor">Thor je bio moćan bog groma, rata i zaštite. Prikazivan je kao snažan ratnik s velikim
+čekićem Mjölnirom, kojim je kontrolirao munje i gromove. Thor je bio simbol
+hrabrosti i snage, te je često putovao po devet svjetova nordijske mitologije kako bi
+se suočio s divovima i drugim prijetnjama bogovima i ljudima. Smatran je zaštitnikom
+i prijateljem ljudi, a bio je poznat po svom temperamentu i strastvenoj prirodi.</string>
+    <string name = "Tir">Tir je bio bog pravde i pobjede. Bio je poznat po svojoj hrabrosti i vještini u borbi. Tir
+je bio posebno cijenjen zbog svoje čestitosti i pravičnosti. Njegova poštena sudstva
+bila su ključna za održavanje reda u nordijskom svijetu, a smatrao se i zaštitnikom
+zakona i sudaca. Tir je također bio povezan s ratovima i pobjedama, a često se
+prikazivao s mačem u ruci.
+</string>
+    <string name = "Freja">Freja je bila boginja ljubavi, plodnosti, ljepote i ratova. Smatrana je najljepšom od svih
+boginja i bila je iznimno poštovana. Freja je bila povezana s prirodom, a cvijeće i
+plodovi bili su njezini simboli. Bila je i ratnica, te je vodila vojsku bojnih vilenjaka u
+bitkama. Freja je također imala moć proricanja sudbine, a često je bila povezana s
+magijom i mističnim praksama.</string>
+    <string name = "Loki">Loki, bog varalica i obmana, bio je jedan od najintrigantnijih likova u nordijskoj
+mitologiji. Loki je bio poznat po svojim lukavim trikovima i šalama, ali je također
+donosio kaos i probleme bogovima i ljudima. Iako je bio nepredvidiv i često se
+ponašao sebično, Loki je također bio izuzetno inteligentan i koristan u rješavanju
+problema. Njegova priroda donijela je i neke posljedice, a njegovi postupci često su
+imali dalekosežne posljedice.</string>
+    <string name = "Nordijska">Nordijska mitologija obuhvaća bogatstvo priča, mitova i legendi koje potječu iz
+drevne sjeverne Europe, posebno Skandinavije. Ova mitologija ima duboke korijene u
+kulturama nordijskih naroda poput Vikinga i ostavila je trajan utjecaj na njihovu
+povijest i tradiciju.
+U nordijskoj mitologiji, bogovi i boginje predstavljaju moćne entitete s različitim
+karakteristikama i domenama. Jedan od najpoznatijih bogova je Odin, vrhovni bog i
+kralj Asgarda, doma bogova. Odin je bio bog mudrosti, ratova, poezije i magije.
+Povezivalo ga se s vladanjem, proročanstvima i vještinom da vidi budućnost. Također
+je poznat po svojoj avanturističkoj prirodi i težnji za stjecanjem znanja.
+Nordijska mitologija također je isprepletena s epikom Ragnarök, sudbonosnim
+konačnim sukobom bogova i giganta koji će rezultirati uništenjem svijeta kako ga
+poznajemo. Ova priča o sudnjem danu predstavlja temu propasti i obnove te ukazuje
+na cikličku prirodu života.</string>
+    <string name = "Odin">Odin, vrhovni bog i kralj Asgarda, predstavlja simbol mudrosti, rata, poezije i magije.
+Odin je poznat po svom zanimanju za stjecanje znanja, a svoju mudrost je često
+pronalazio kroz razne avanture i žrtve. Bio je vidovit i koristio je svoje moći da vidi
+budućnost i proriče događaje. Odin je također bio vođa Valhale, palače u kojoj su
+hrabri ratnici dočekivali svoju vječnu nagradu nakon smrti u bici.
+</string>
+
+    <string name = "Egipatska">Egipatska mitologija je jedan od najfascinantnijih aspekata drevne egipatske kulture.
+Bogati mitološki panteon i priče koje su se prenosile kroz generacije otkrivaju nam
+duboko ukorijenjene vjerovanja i svjetonazor starog Egipta.
+U egipatskoj mitologiji, bogovi i boginje predstavljaju personifikaciju prirode, snaga i
+aspekata ljudskog života. Svaki bog ima svoju specifičnu ulogu i moć, a njihova
+međusobna povezanost stvara složenu mrežu odnosa i hijerarhiju unutar panteona.
+Egipatska mitologija igrala je važnu ulogu u životu drevnih Egipćana. Ona je
+oblikovala njihovu religiju, moralne vrijednosti i obrede. Vjerovali su da su bogovi
+aktivno sudjelovali u svakodnevnom životu i da su odgovorni za različite aspekte
+svijeta oko njih. Očuvali su svoje mitološke priče kroz slikovite hijeroglifske zapise na
+zidovima hramova i grobnica.
+Egipatska mitologija ostaje značajan dio svjetske povijesti i kulture. Njena duboka
+povezanost s prirodom, bogatstvom priča i značenjem koje su pridavali bogovima
+čine je intrigantnom i neiscrpnom temom za istraživanje.</string>
+    <string name = "Ra">Bog Ra, poznat kao bog sunca, predstavlja jedno od najvažnijih božanstava u
+egipatskoj mitologiji. Ra je simbolizirao stvaranje, svjetlost i toplinu koju sunce donosi
+svijetu. Vjerovano je da se Ra svakog jutra pojavljivao na nebu kao sunce, donoseći
+novi dan i životnu energiju. Noću bi se povukao u podzemni svijet, suočavajući se s
+raznim opasnostima prije ponovnog izlaska na istoku. Kao vrhovni bog, Ra je bio
+obožavan i poštovan od strane drevnih Egipćana.
+</string>
+    <string name = "Osiris">Osiris je bio bog plodnosti, vegetacije i vladar podzemnog svijeta. Predstavljao je
+princip obnove i uskrsnuća te je bio poznat po svojoj pravednosti. U mitu o Osirisu,
+njegov zlobni brat Set zavidi mu na vlasti te izvodi lukavi plan kako bi ga ubio. Set je
+rasparao tijelo Osirisa na komade i rasuo ih po Egiptu. Osirisova supruga Isis, boginja
+magije i zaštitnica obitelji, krenula je u potragu za dijelovima tijela svog supruga.
+Svojom magičnom moći uspjela je obnoviti Osirisa i vratiti mu život. Međutim, Osiris
+više nije mogao ostati na Zemlji, već je postao vladar podzemlja, mjesto gdje je
+donosio sudske odluke za duše umrlih.</string>
+    <string name = "Isis">Isis je bila božica magije, mudrosti i majčinstva. Smatra se da je naučila prvo pismo i
+prvi zakon. Isis je bila osobaifikacija idealne majke, snažna i zaštitnička. U mitu o
+Osirisu, pokazala je svoju odlučnost i hrabrost u potrazi za tijelom svog supruga kako
+bi ga obnovila i vratila mu život. Isis je također bila povezana s plodnošću, a često se
+prikazivala s krilima i rogatim krunama.
+</string>
+    <string name = "Horus">Horus je bio sin Osirisa i Isis te je simbolizirao moć faraona i zaštitu Egipta.
+Predstavljao je princip pravednosti i borbe protiv zla. Prema mitu, Horus je suočio se
+sa svojim zlim ujakom Setom kako bi osvetio smrt svog oca i preuzeo prijestolje.
+Nakon dugotrajne bitke, Horus je uspio pobijediti Seta i postati novi kralj Egipta.Horus je često prikazivan s glavom sokola, simbolizirajući njegovu oštroumnost i
+zaštitničke moći.</string>
+    <string name = "Anubis">Anubis je bio bog mrtvih i zaštitnik grobova. Prikazivan je kao čovjek s glavom šakala,
+a njegova uloga bila je voditi duše umrlih kroz proces mumifikacije i presude u
+zagrobnom životu. Anubis je bio odgovoran za vaganje srca pokojnika na vječnim
+mjerilima istine. Vjerovalo se da će duša koja je čista i poštena proći ovaj test i dobiti
+pristup zagrobnom životu.</string>
+
+
+
+
 </resources>
