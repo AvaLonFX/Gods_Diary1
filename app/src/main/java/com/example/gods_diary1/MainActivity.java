@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             executor.execute(new Runnable() {
                 @Override
                 public void run() {
-                    final test user = appDatabase.testDao().getUserByUsernameAndPassword(username, password);
+                    final Test user = appDatabase.testDao().getUserByUsernameAndPassword(username, password);
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void handleLoginResult(test user) {
+    private void handleLoginResult(Test user) {
         if (user != null) {
             Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);

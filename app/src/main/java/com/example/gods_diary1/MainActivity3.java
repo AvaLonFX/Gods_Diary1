@@ -30,7 +30,10 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
         appDatabase = Room.databaseBuilder(getApplicationContext(),
-                AppDatabase.class, "test-db").build();
+                        AppDatabase.class, "test-db")
+                .fallbackToDestructiveMigration()
+                .build();
+
 
         editTextUsername = findViewById(R.id.editTextUsername);
         editTextEmail = findViewById(R.id.editTextEmail);
@@ -56,7 +59,7 @@ public class MainActivity3 extends AppCompatActivity {
         String text2 = editTextEmail.getText().toString();
         String text3 = editTextPassword.getText().toString();
         if (!text.isEmpty() && !text2.isEmpty() && !text3.isEmpty()) {
-            test ime = new test();
+            Test ime = new Test();
             ime.username = text;
             ime.email = text2;
             ime.pass = text3;
@@ -90,7 +93,7 @@ public class MainActivity3 extends AppCompatActivity {
         @Override
         protected Boolean doInBackground(String... params) {
             String username = params[0];
-            List<test> userList = appDatabase.testDao().getUserByUsername(username);
+            List<Test> userList = appDatabase.testDao().getUserByUsername(username);
             return !userList.isEmpty();
         }
 
@@ -109,26 +112,26 @@ public class MainActivity3 extends AppCompatActivity {
         }
     }
 
-    private class InsertNoteTask extends AsyncTask<test, Void, Void> {
+    private class InsertNoteTask extends AsyncTask<Test, Void, Void> {
         @Override
-        protected Void doInBackground(test... tests) {
+        protected Void doInBackground(Test... Tests) {
 
-            appDatabase.testDao().insert(tests[0]);
+            appDatabase.testDao().insert(Tests[0]);
             return null;
         }
     }
     private class LoadNotesTask extends AsyncTask<Void, Void,
-            List<test>> {
+            List<Test>> {
         @Override
-        protected List<test> doInBackground(Void... voids) {
+        protected List<Test> doInBackground(Void... voids) {
 
 
             return appDatabase.testDao().getAll();
         }
         @Override
-        protected void onPostExecute(List<test> notes) {
+        protected void onPostExecute(List<Test> notes) {
             StringBuilder stringBuilder = new StringBuilder();
-            for (test note : notes) {
+            for (Test note : notes) {
                 String s = note.username+" " +" "+ note.email+" "+note.pass;
                 stringBuilder.insert(0, "\n\n");
                 stringBuilder.insert(0, s);

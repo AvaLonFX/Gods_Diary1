@@ -6,14 +6,14 @@ import java.util.List;
 @Dao
 public interface testDao {
     @Insert
-    void insert(test test);
-    @Query("SELECT * FROM test")
-    List<test> getAll();
-    @Query("SELECT * FROM test WHERE username = :username")
-    List<test> getUserByUsername(String username);
+    void insert(Test test);
+    @Query("SELECT * FROM Test")
+    List<Test> getAll();
+    @Query("SELECT * FROM Test WHERE username = :username")
+    List<Test> getUserByUsername(String username);
 
-    @Query("SELECT * FROM test WHERE username = :username AND password = :password LIMIT 1")
-    test getUserByUsernameAndPassword(String username, String password);
+    @Query("SELECT * FROM Test WHERE username = :username AND password = :password LIMIT 1")
+    Test getUserByUsernameAndPassword(String username, String password);
 
 
 
