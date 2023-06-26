@@ -19,6 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         ImageView imageButton = findViewById(R.id.imageButton);
         ImageView imageButton2 = findViewById(R.id.imageButton2);
+        ImageView imageButton3 = findViewById(R.id.imageButton3);
         imageButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
@@ -29,6 +30,13 @@ public class MainActivity2 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, MainActivity5.class);
+                startActivity(intent);
+            }
+        });
+
+        imageButton3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity6.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity6">
+
+        <ImageView
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="474dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:contentDescription="Egipatska mitologija"
+            android:focusable="true"
+            android:src="@drawable/egyptmainx" />
+
+        <ImageView
+            android:id="@+id/imageButton2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageButton1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            android:contentDescription="Anubis"
+            android:src="@drawable/anubis4x" />
+
+        <ImageView
+            android:id="@+id/imageButton3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageButton1"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:contentDescription="Horus"
+            android:src="@drawable/horus4x" />
+
+        <ImageView
+            android:id="@+id/imageButton4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageButton2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:contentDescription="Isis"
+            android:src="@drawable/isis4x" />
+
+        <ImageView
+            android:id="@+id/imageButton5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageButton3"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:contentDescription="Osiris"
+            android:src="@drawable/osiris4x" />
+
+        <ImageView
+            android:id="@+id/imageButton6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageButton4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:contentDescription="Ra"
+            android:src="@drawable/ra4x" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton6"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/paragraph"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </ScrollView>
+    </RelativeLayout>
+</ScrollView>
