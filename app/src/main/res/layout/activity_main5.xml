@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity4">
+        tools:context=".MainActivity5">
 
         <ImageView
             android:id="@+id/imageButton1"
@@ -19,9 +19,9 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:clickable="true"
-            android:contentDescription="Grčka Mitologija"
+            android:contentDescription="Nordijska Mitologija"
             android:focusable="true"
-            android:src="@drawable/greekmainx" />
+            android:src="@drawable/nordicmainx" />
 
         <ImageView
             android:id="@+id/imageButton2"
@@ -32,8 +32,8 @@
             android:layout_marginTop="40dp"
             android:layout_alignParentStart="true"
             android:clickable="true"
-            android:contentDescription="Zeus"
-            android:src="@drawable/zeuscircle2x" />
+            android:contentDescription="Freja"
+            android:src="@drawable/freja4x" />
 
         <ImageView
             android:id="@+id/imageButton3"
@@ -43,8 +43,8 @@
             android:layout_marginLeft="190dp"
             android:layout_marginTop="40dp"
             android:clickable="true"
-            android:contentDescription="Hera"
-            android:src="@drawable/heracircle2x" />
+            android:contentDescription="Loki"
+            android:src="@drawable/loki4x" />
 
         <ImageView
             android:id="@+id/imageButton4"
@@ -54,8 +54,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:clickable="true"
-            android:contentDescription="Athena"
-            android:src="@drawable/athenacircle2x" />
+            android:contentDescription="Odin"
+            android:src="@drawable/odin4x" />
 
         <ImageView
             android:id="@+id/imageButton5"
@@ -65,8 +65,8 @@
             android:layout_marginLeft="190dp"
             android:layout_marginTop="40dp"
             android:clickable="true"
-            android:contentDescription="Apolo"
-            android:src="@drawable/apollocircle2x" />
+            android:contentDescription="Thor"
+            android:src="@drawable/thor4x" />
 
         <ImageView
             android:id="@+id/imageButton6"
@@ -76,8 +76,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
             android:clickable="true"
-            android:contentDescription="Posejdon"
-            android:src="@drawable/poseidoncircle2x" />
+            android:contentDescription="Tir"
+            android:src="@drawable/tir4x" />
 
         <ScrollView
             android:layout_width="wrap_content"

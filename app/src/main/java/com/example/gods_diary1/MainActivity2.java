@@ -18,9 +18,17 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         ImageView imageButton = findViewById(R.id.imageButton);
+        ImageView imageButton2 = findViewById(R.id.imageButton2);
         imageButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this, MainActivity4.class);
+                startActivity(intent);
+            }
+        });
+
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, MainActivity5.class);
                 startActivity(intent);
             }
         });

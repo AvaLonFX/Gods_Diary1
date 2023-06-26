@@ -18,7 +18,17 @@
         android:layout_weight="1"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/mainrect"/>
+        android:src="@drawable/greekmainx"/>
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="55dp"
+        android:layout_weight="1"
+        android:layout_marginTop="200px"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nordicmainx"/>
 
     <TextView
         android:id="@+id/textView"
