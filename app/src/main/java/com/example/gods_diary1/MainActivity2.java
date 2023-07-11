@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity {
         int itemId = item.getItemId();
 
         if (itemId == R.id.menu_item1) {
-            Intent intent = new Intent(MainActivity2.this, MainActivity6.class);
+            Intent intent = new Intent(MainActivity2.this, MainActivityPrice.class);
             startActivity(intent);
             return true;
 

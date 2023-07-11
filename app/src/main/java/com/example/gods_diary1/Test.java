@@ -13,9 +13,10 @@ public class Test {
     @ColumnInfo(name = "Password")
     public String pass;
 
-
-
-
+    @ColumnInfo(name = "header")
+    public String header;
+    @ColumnInfo(name = "text")
+    public String text;
 }
 
 
