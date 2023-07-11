@@ -1,4 +1,5 @@
 package com.example.gods_diary1;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -42,5 +43,23 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemId = item.getItemId();
+
+        if (itemId == R.id.menu_item1) {
+            Intent intent = new Intent(MainActivity2.this, MainActivity6.class);
+            startActivity(intent);
+            return true;
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
