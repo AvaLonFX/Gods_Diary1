@@ -39,8 +39,6 @@ public class MainActivity3 extends AppCompatActivity {
         editTextEmail = findViewById(R.id.editTextEmail);
         editTextPassword = findViewById(R.id.editTextPassword);
         buttonRegister = findViewById(R.id.buttonRegister);
-        TextView = findViewById(R.id.TextView);
-
 
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,17 +125,6 @@ public class MainActivity3 extends AppCompatActivity {
 
 
             return appDatabase.testDao().getAll();
-        }
-        @Override
-        protected void onPostExecute(List<Test> notes) {
-            StringBuilder stringBuilder = new StringBuilder();
-            for (Test note : notes) {
-                String s = note.username+" " +" "+ note.email+" "+note.pass;
-                stringBuilder.insert(0, "\n\n");
-                stringBuilder.insert(0, s);
-
-            }
-            TextView.setText(stringBuilder.toString());
         }
     }
     }

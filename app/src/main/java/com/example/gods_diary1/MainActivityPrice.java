@@ -76,7 +76,7 @@ public class MainActivityPrice extends AppCompatActivity {
                 List<Test> testList = appDatabase.testDao().getAll();
                 for (int i = testList.size() - 1; i >= 0; i--) {
                     Test test = testList.get(i);
-                    stringBuilder.append("-----------------------------------------------------------").append("\n")
+                    stringBuilder.append("--------------------------------").append("\n")
                             .append(test.header).append("\n")
                             .append(test.text).append("\n");
                 }
